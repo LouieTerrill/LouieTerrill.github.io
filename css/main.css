@@ -43,8 +43,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-td {    
-    display: block;
-    float: left;
-    padding: 10px 0;
+td,th{
+  border-left: 100px solid #FFF;
 }
+
+ tr>td:first-child {
+   border:0px;
+ }
