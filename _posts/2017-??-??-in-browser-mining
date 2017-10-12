@@ -1,0 +1,54 @@
+---
+layout: post
+title: "In-browser cryptocurrency mining and planned obsolescence"
+date: 2017-??-??
+tags:
+- Test
+---
+
+<p>
+  I read a few <h href="https://motherboard.vice.com/en_us/article/ne7nvm/is-the-pirate-bays-in-browser-cryptocurrency-mining-better-than-its-crappy-ads">articles</h> discussing the recent attempts to use in-browser cryptocurrency miners to replace advertising.
+  Essentially, they use Javascript to mine the coin du jour rather than to serve ads, probably introducing a dilemma between being slow and being cluttered to earn the same income. 
+</p>
+<p>
+  What implications might widespread browser mining have? I'll be making the naive assumption that blocking services can be ignored. 
+  Firstly, it could cause a shift in the sort of format that is most popular on sites whose business model is currently built around advertising. 
+  At the moment, the focus on pageviews means there is an <h href="https://digiday.com/media/why-publishers-should-ban-slideshows/">abundance of slideshow articles</h> which are split across multiple pages, and perhaps also listicles bloated by images to allow more ads to be included in the margins of the page. 
+</p>
+<p>
+  However, with a mining-based model, the incentive would be to keep users on the same page for as long as possible, and minimise the extent to which they might notice the extra computational load.
+  This might lead to pages designed to pack the content in as densely as possible, such as with large paragraphs of text. 
+  Presumably costs would be kept down with the same sparsity of details, though. I'm amused by the thought that the Calvin and Hobbes school of writing assignments could be the future of internet journalism. 
+  <img src="https://teenetinytina.files.wordpress.com/2013/04/calvinandhobbes.jpg" alt="Calvin: &#34;I think we've got enough information now, don't you?&#34;
+  Hobbes: &#34;All we have is one &#34;fact&#34; you made up.&#34;
+  Calvin: &#34;That's plenty. By the time we add an introduction, a few illustrations, and a conclusion, it will look like a graduate thesis.&#34;">
+</p>
+<p>
+  The other obvious form of content to take advantage of this is video, as demonstrated by the <h href="https://www.theregister.co.uk/2017/09/25/showtime_hit_with_coinmining_script/">Showtime mining incident</h>. 
+  Provided the browser still has enough resources left to run the video, users should remain oblivious to the inconvenience unless they attempt to multitask on the same device.
+  A slightly more demanding alternative to video is online games, which would also be suitable for this model, particularly idle ones. 
+  I wonder if we'll see a trend in new games created after this shift lacking any save feature, as another way to encourage users to keep that tab open and mining? 
+  The sunk costs fallacy can be a powerful thing.
+</p>
+<p>
+  As an aside, it's interesting to consider how passive coin-mining malware is. 
+  I'm not aware of any previous sort of infection that requires no subsequent action from either the maker (compared to, say, keylogger-assisted identity theft) or the victim (unlike ransomware) that still provides a valuable output to the maker. 
+  I'm reminded of someone else's musings about how a better business model for blackmail would be based on recurring payments, so that the blackmailer always benefits from keeping the secret to themselves. 
+  I think it might have been on Marginal Revolution?
+</p>
+<p>
+  Another funny thought is that there are already <h href="https://info.ecosia.org/what">sites</h> promising that your use of them directly serves some noble aim. 
+  As part of the support for cryptocurrencies is due to the appeal of an untraceable currency, independent of governments, it's reasonable to assume that this sort of site should soon exist to support online privacy in some form.
+  However, it's ironic that by mining coins designed around privacy, it would be challenging to determine whether the electricity and hardware use you're donating is in fact going to support privacy or simply someone's deep web purchasing habits.
+</p>
+<p>
+  I'd also had a look at the <h href="https://jamesjchoi.blogspot.co.uk/2014/07/does-apple-deliberately-slow-down-old.html">Google Trends analysis</h> that showed a link between new iPhone releases and complaints of slow performance on the older versions. 
+  The hypothesis which seems most plausible to me is that the new OS released at the same time isn't optimised for the hardware of the previous versions, causing them to run more slowly. 
+  This isn't quite the conspiracy Apple critics might have hoped for, but it achieves the same result in a much more justifiable fashion. 
+  Would a similar process arise here? It's already possible to identify details of the device being used to browse a webpage <h href="https://www.quirksmode.org/js/detect.html">through Javascript</h>, and so the miners may adjust their demands based on what the average user of a particular device can run and is willing to tolerate.
+  As a result, users would find that if they fail to upgrade and keep up with the majority, their devices will become slower when browsing.
+  This scenario is a bit different, though, as the page owners aren't really trying to encourage users to upgrade: each page is competing with the other pages and traditional miners, so having visitors with more computing power gives a slight advantage over the dedicated miners, but this is probably negligible.
+  Instead, the incentive structure occurs naturally.
+  Nonetheless, we might expect to see similar "why is my iphone slow" peaks around the release dates of new hardware, albeit with a time delay and broadening due to the slow adaptation of the pages compared to the immediate rollout of the updated OS. 
+  On the other hand, perhaps browsers will start sending CPU usage data to the pages as well, so that sites can always remain at the edge of usability? 
+</p>
